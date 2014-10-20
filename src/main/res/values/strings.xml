@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InteliDuino</string>
+    <string name="action_settings">Settings</string>
+
+
+<!-- ACTION BAR MENU -->
+
+	<!-- NavDrawerItems -->
+	<string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Devices</item>
+        <item >Rooms</item>
+        <item >Sceneries</item>
+        <item >Settings</item>
+        <item >Credits</item>
+        <item >Logout</item>
+    </string-array>
+	
+	<!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+	
+	<!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+    <string name="website"></string>
+
+	
+    <!--  DeviceListActivity -->
+
+    <string name="conn_scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="conn_none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="conn_title_paired_devices">Paired Devices</string>
+    <string name="conn_title_new_devices">New Available Devices</string>
+    <string name="conn_button_scan_devices">Scan for devices</string>
+
+    <!-- MainActivity -->
+
+    <string name="main_bluetooth_button">Bluetooth</string>
+
+    <!-- BluetoothConnectionActivity -->
+
+    <string name="bluetooth_send_button">Send Message</string>
+    <string name="bluetooth_options_devices">Devices List</string>
+    <string name="bluetooth_options_connect">Connect</string>
+    <string name="bluetooth_get_button">Get Message</string>
+
+    <!-- DEVICES PACKAGE -->
+        <!-- DEVICES ADDING -->
+            <!-- AddDevice.java -->
+                <string name="add_device_generate">Generate!</string>
+                <string name="add_device_add">Add Device!</string>
+                <string name="add_device_extra">Extra Settings</string>
+</resources>
